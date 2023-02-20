@@ -21,6 +21,9 @@
 - Orderbook depth: If the arbitrage opportunity doesn't have enough "depth", you can't make enough profit, after deducting the fees. See next point.
 - Starting amount: Do you have the right amount of liquidity to take advantage of the arbitrage? Too much starting amount can be bad. This is because the orderbook might not have enough liquidity for the trade volume you have in mind.
 - Competition: Other participants are also competiting with you for the arbitrage.
+- Domain: If you are trying to take advantage of arbitrage between two or more CEXes or two or more DEXes, coins have to be transferred. How fast can you transfer it? How much can you transfer? What are the fees? etc.
+- MEV: For DEXes, there might be MEV
+- Slippage: For DEXes, there might be high slippage cost due to AMM. Some traders don't believe AMM is suitable for high frequency trades.
 **Therefore, triangle arbitrage opportunities in centralized exchanges are rare.**
 
 ## Setup
