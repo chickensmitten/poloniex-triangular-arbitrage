@@ -502,12 +502,12 @@ def get_depth_from_orderbook(surface_arb):
 
     # Extract initial variables
     swap_1 = surface_arb["swap_1"]
-    starting_amount = 100
+    starting_amount = 1000000
     starting_amount_dict = {
-        "USDT": 100,
-        "USDC": 100,
-        "BTC": 0.05,
-        "ETH": 0.1
+        "USDT": 1000000,
+        "USDC": 1000000,
+        "BTC": 5,
+        "ETH": 75
     }
     if swap_1 in starting_amount_dict:
         starting_amount = starting_amount_dict[swap_1]
