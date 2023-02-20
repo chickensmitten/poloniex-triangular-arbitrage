@@ -120,7 +120,7 @@ def get_price_for_t_pair(t_pair, prices_json):
 def calc_triangular_arb_surface_rate(t_pair, prices_dict):
 
     # Set Variables
-    starting_amount = 1
+    starting_amount = 1000000
     min_surface_rate = 0
     surface_dict = {}
     contract_2 = ""
