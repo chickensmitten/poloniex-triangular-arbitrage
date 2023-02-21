@@ -13,6 +13,13 @@
 - Lesson 64 to 66. For recap to calculate orderbook depth.
 - Step 0 and step 1, is to collect data from Poloniex then sort the data so that we can do arbitrage calculation.
 
+## CEFI vs DEFI comparison
+- CEFI has higher availability
+- DEFI is more viable to conduct arbitrage
+- CEFI is must faster in execution
+- DEFI has potential to make more money (not taking into account gas fee, slippage and MEV). Executing all trades effectively can be problematic.
+- Possibility of doing arbitrage manually with DEFI because it takes a while to close the gap.
+
 ## Caution: Reasons for tirangle arbitrage failure
 - Exchange: Bad prices from the exchange or just bad code from exchange
 - Trade Frequency and Call limits: Reaching exchange call limits. The more often you can sample the exchange data, the better it is.
